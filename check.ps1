@@ -145,7 +145,7 @@ function Get-ParsedSFGAO {
 #endregion
 
 #region 4. Prompt the user for a path, then run the check
-$path = Read-Host -Prompt "Enter a path to check (e.g. '\\wsl$\Ubuntu' or 'C:\Windows' or 'shell:PicturesLibrary')"
+$path = Read-Host -Prompt "Enter a path to check (e.g. '\\wsl$\' or 'C:\Windows' or 'shell:PicturesLibrary')"
 
 Get-ParsedSFGAO -Path $path
 #endregion
